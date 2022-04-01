@@ -7,7 +7,7 @@
     <changeSet id="1" author="schulz">
         <createTable tableName="ALL_TYPES">
             <column name="ONE_CHAR" type="VARCHAR2(1)"/>
-            <column name="HUNDRET_CHARS" type="VARCHAR(100)"/>
+            <column name="HUNDRED_CHARS" type="VARCHAR(100)"/>
             <column name="BINARY" type="BINARY"/>
             <column name="TIMESTAMP" type="TIMESTAMP"/>
         </createTable>
