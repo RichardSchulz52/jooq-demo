@@ -115,6 +115,13 @@
                                     <includeExpression>.*\.*_BOOLEAN</includeExpression>
                                 </forcedType>
                             </forcedTypes>
+                            <forcedTypes>
+                                <forcedType>
+                                    <userType>de.bambussoft.jooqdemo.MyEnum</userType>
+                                    <includeExpression>.*\.MY_ENUM</includeExpression>
+                                    <converter>de.bambussoft.jooqdemo.jooq.converter.MyEnumConverter</converter>
+                                </forcedType>
+                            </forcedTypes>
                         </database>
                         <generate>
                             <deprecated>false</deprecated>
