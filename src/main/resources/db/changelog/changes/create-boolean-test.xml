@@ -8,7 +8,7 @@
         <createTable tableName="BOOLEAN_TESTS">
             <column name="NAME" type="VARCHAR2(127)"/>
             <column name="STRING_BOOLEAN" type="VARCHAR(100)"/>
-            <column name="INT" type="INTEGER"/>
+            <column name="INT_BOOLEAN" type="INTEGER"/>
         </createTable>
         <rollback>
             <dropTable tableName="BOOLEAN_TESTS"/>
