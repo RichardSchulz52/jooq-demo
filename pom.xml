@@ -113,7 +113,7 @@
                             <deprecated>false</deprecated>
                             <records>true</records>
 
-                            <pojos>false</pojos>
+                            <pojos>true</pojos>
                             <pojosEqualsAndHashCode>true</pojosEqualsAndHashCode>
                             <pojosToString>true</pojosToString>
                             <immutablePojos>false</immutablePojos>
