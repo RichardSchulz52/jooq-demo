@@ -108,6 +108,13 @@
                             <inputSchema>PUBLIC</inputSchema>
                             <includes>.*</includes>
                             <excludes>DATABASECHANGELOG|DATABASECHANGELOGLOCK</excludes>
+
+                            <forcedTypes>
+                                <forcedType>
+                                    <name>BOOLEAN</name>
+                                    <includeExpression>.*\.*_BOOLEAN</includeExpression>
+                                </forcedType>
+                            </forcedTypes>
                         </database>
                         <generate>
                             <deprecated>false</deprecated>
