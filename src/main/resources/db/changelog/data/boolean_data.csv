@@ -1,0 +1,5 @@
+NAME;STRING_BOOLEAN;INT
+tt;true;1
+ff;false;0
+ff;any;0
+ft;other;123
