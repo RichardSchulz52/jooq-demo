@@ -10,6 +10,9 @@
             <column name="HUNDRED_CHARS" type="VARCHAR(100)"/>
             <column name="BINARY" type="BINARY"/>
             <column name="TIMESTAMP" type="TIMESTAMP"/>
+            <column name="INTERGER" type="INT"/>
+            <column name="DOUBLE" type="DOUBLE"/>
+            <column name="DATE" type="DATE"/>
         </createTable>
         <rollback>
             <dropTable tableName="ALL_TYPES"/>
